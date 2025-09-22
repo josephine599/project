@@ -1,0 +1,64 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "ingredients": ["spaghetti", "minced beef", "tomato sauce", "onions", "garlic"],
+      "instructions": "Boil spaghetti until al dente. Fry minced beef with onions and garlic, add tomato sauce and simmer. Serve hot."
+    },
+    {
+      "id": 2,
+      "name": "Vegetable Stir Fry",
+      "ingredients": ["broccoli", "carrots", "soy sauce", "noodles", "bell peppers"],
+      "instructions": "Heat oil in a pan, stir fry vegetables, add noodles, pour soy sauce, and toss until well coated."
+    },
+    {
+      "id": 3,
+      "name": "Chicken Salad",
+      "ingredients": ["chicken breast", "lettuce", "tomatoes", "olive oil", "cucumber"],
+      "instructions": "Grill chicken, chop vegetables, mix together with olive oil dressing, serve chilled."
+    },
+    {
+      "id": 4,
+      "name": "Beef Tacos",
+      "ingredients": ["taco shells", "ground beef", "cheddar cheese", "lettuce", "salsa"],
+      "instructions": "Cook ground beef with taco seasoning. Fill shells with beef, lettuce, cheese, and top with salsa."
+    },
+    {
+      "id": 5,
+      "name": "Pancakes",
+      "ingredients": ["flour", "milk", "eggs", "sugar", "butter"],
+      "instructions": "Mix batter, heat a pan with butter, pour batter and cook until golden brown on both sides."
+    },
+    {
+      "id": 6,
+      "name": "Grilled Cheese Sandwich",
+      "ingredients": ["bread slices", "cheddar cheese", "butter"],
+      "instructions": "Butter the bread, place cheese between slices, grill until golden and cheese is melted."
+    },
+    {
+      "id": 7,
+      "name": "Vegetable Soup",
+      "ingredients": ["carrots", "potatoes", "peas", "celery", "vegetable broth"],
+      "instructions": "Chop vegetables, boil in broth until tender. Add seasoning to taste and serve hot."
+    },
+    {
+      "id": 8,
+      "name": "Omelette",
+      "ingredients": ["eggs", "onions", "bell peppers", "spinach", "salt", "pepper"],
+      "instructions": "Whisk eggs, pour into heated pan, add vegetables, cook until set, fold and serve."
+    },
+    {
+      "id": 9,
+      "name": "Fried Rice",
+      "ingredients": ["rice", "soy sauce", "green onions", "carrots", "scrambled eggs"],
+      "instructions": "Stir fry vegetables, add rice and soy sauce, toss together with scrambled eggs."
+    },
+    {
+      "id": 10,
+      "name": "Fruit Smoothie",
+      "ingredients": ["banana", "strawberries", "milk", "honey"],
+      "instructions": "Blend all ingredients until smooth, serve cold."
+    }
+  ]
+}

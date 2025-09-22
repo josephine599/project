@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍴 Meal Finder</h1>
+    <input type="text" id="searchInput" placeholder="Search meal by name...">
+  </header>
+
+  <main id="mealsContainer"></main>
+
+  <script>
+    async function loadMeals() {
+      try {
+        const res = await fetch('db.json');
+        const data = await res.json();
+        displayMeals(data.meals);
+      } catch (error) {
+        console.error("Error loading meals:", error);
+      }
+    }
+
+    function displayMeals(meals) {
+      const container = document.getElementById('mealsContainer');
+      container.innerHTML = '';
+
+      meals.forEach(meal => {
+        const card = document.createElement('div');
+        card.className = 'meal-card';
+
+        card.innerHTML = `
+          <h2>${meal.name}</h2>
+          <p><strong>Ingredients:</strong> ${meal.ingredients.join(', ')}</p>
+          <p><strong>Instructions:</strong> ${meal.instructions}</p>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    document.getElementById('searchInput').addEventListener('input', async (e) => {
+      const searchTerm = e.target.value.toLowerCase();
+      const res = await fetch('db.json');
+      const data = await res.json();
+      const filteredMeals = data.meals.filter(meal =>
+        meal.name.toLowerCase().includes(searchTerm)
+      );
+      displayMeals(filteredMeals);
+    });
+
+    loadMeals();
+  </script>
+</body>
+</html>
