@@ -3,27 +3,33 @@
     {
       "name": "Spaghetti Bolognese",
       "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"],
-      "instructions": "Cook pasta, prepare sauce, combine and serve."
+      "instructions": "Cook pasta, prepare sauce, combine and serve.",
+      "image": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
     },
     {
       "name": "Chicken Curry",
       "ingredients": ["chicken", "curry paste", "coconut milk", "rice"],
-      "instructions": "Cook chicken, add curry paste, pour coconut milk, simmer, serve with rice."
+      "instructions": "Cook chicken, add curry paste, pour coconut milk, simmer, serve with rice.",
+      "image": "https://www.themealdb.com/images/media/meals/1529444830.jpg"
     },
     {
       "name": "Vegetable Stir Fry",
       "ingredients": ["broccoli", "carrots", "soy sauce", "noodles"],
-      "instructions": "Stir fry vegetables, add sauce, mix with noodles."
+      "instructions": "Stir fry vegetables, add sauce, mix with noodles.",
+      "image": "https://www.themealdb.com/images/media/meals/wqurxy1511453156.jpg"
     },
     {
       "name": "Beef Tacos",
       "ingredients": ["taco shells", "ground beef", "cheese", "lettuce", "tomato"],
-      "instructions": "Cook beef, fill taco shells, top with veggies and cheese."
+      "instructions": "Cook beef, fill taco shells, top with veggies and cheese.",
+      "image": "https://www.themealdb.com/images/media/meals/wpputp1511812960.jpg"
     },
     {
       "name": "Pancakes",
       "ingredients": ["flour", "eggs", "milk", "sugar", "butter"],
-      "instructions": "Mix ingredients, pour on hot pan, flip, serve with syrup."
+      "instructions": "Mix ingredients, pour on hot pan, flip, serve with syrup.",
+      "image": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg"
     }
   ]
 }
+
