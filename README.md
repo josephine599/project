@@ -35,7 +35,7 @@ Live Demo: [https://your-netlify-link.netlify.app](https://your-netlify-link.net
 - User authentication and cloud storage
 
 ## 👨‍💻 Author
-- **Your Name**  
+- Josephine Anyango
 Feel free to connect on [LinkedIn](https://linkedin.com).
 
 ---
