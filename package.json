@@ -2,8 +2,8 @@
   "name": "my-project",
   "version": "1.0.0",
   "description": "Meal Planner API using json-server",
-  "main": "index.js",
-  "scripts": {
+  "main": "index.js", 
+    "scripts": {
     "start": "json-server --watch db.json --host 0.0.0.0 --port ${PORT:-3000}",
     "dev": "json-server --watch db.json --port 3000"
   },
