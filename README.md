@@ -1,35 +1,45 @@
-# 🍴 Meal Finder (Simple MVP)
+# 🍴 Meal Finder App
 
-A simple static web app that lets you search and view meals from a local `db.json` file.
+## 📌 Problem Statement
+People struggle to plan meals and often waste time deciding what to eat. There is a need for a simple, user-friendly solution that helps organize meals.
 
-## Features
-- Displays a list of meals with ingredients and instructions.
-- Search bar to filter meals by name in real time.
-- Pure HTML, CSS, and JS — no frameworks required.
+## ✅ Solution
+Meal Finder is a web app where users can:
+- Search for meals
+- Add custom recipes
+- Delete meals they no longer need
+- Toggle between dark mode & light mode
+- Save meals automatically using localStorage
 
-## How to Run
-1. Download or clone this repository.
-2. Open `index.html` in your browser. (If meals don't load, run a simple local server.)
-3. Example local server using Python:
+## 🛠️ Tech Stack
+- **HTML, CSS, JavaScript**
+- **JSON** for meal data
+- **Netlify** (Hosting)
+- **Render** (JSON API Hosting)
 
-### Installation
-You use git clone to be able to download the documents in the GitHub
+## 📽️ Demo
+![Meal Finder Screenshot](screenshot.png)
 
-### Installation Requirements
-- Git
-- Node.js
+Live Demo: [https://your-netlify-link.netlify.app](https://your-netlify-link.netlify.app)
 
-### Installation instruction
-Git clone git@github.com:josephine599/project.git
+## ⚠️ Challenges Faced
+- Creating dynamic DOM elements for meals
+- Implementing add/delete functionality with persistent storage
+- Designing a responsive and clean layout
+- Ensuring dark mode works across all components
 
-Live Link
-[Git](gh-pages link)
+## 🚀 Future Plans
+- Add categories and filters (e.g. Vegetarian, Breakfast, Lunch)
+- Add a "Favorite Meals" feature
+- Weekly meal planner
+- User authentication and cloud storage
 
-Technologies used
-HTML CSS Github Javascript
+## 👨‍💻 Author
+- **Your Name**  
+Feel free to connect on [LinkedIn](https://linkedin.com).
 
-Support and contact details
-github.com/josephine599
+---
 
-License
-The content of this site is licensed under the MIT license Copyright (c) 2018.
+## 📝 License
+This project is licensed under the MIT License.  
+You are free to use, copy, and modify this project as long as proper credit is given.
