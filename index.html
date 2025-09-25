@@ -11,7 +11,48 @@
     <h1>🍴 Meal Finder</h1>
     <input type="text" id="searchInput" placeholder="Search meal by name...">
     <button id="toggleTheme"> Dark Mode</button>
+
+    <section id="addMealSection">
+      <form id="addMealForm">
+        <input type="text" id="mealNameInput" placeholder="Meal Name" required>
+        <input type="text" id="mealIngredientsInput" placeholder="Ingredients (comma separated)" required>
+        <input type="text" id="mealInstructionsInput" placeholder="Instructions" required>
+        <input type="text" id="mealImageInput" placeholder="Image URL (optional)">
+        <button type="submit">➕ Add Meal</button>
+      </form>
+    </section>
   </header>
+  <section class="slides">
+    <div class="slide active">
+      <h2>🍽 Welcome to Meal Finder</h2>
+      <p>Discover tasty meals and plan them easily!</p>
+    </div>
+    <div class="slide">
+      <h2>🔍 Search Meals</h2>
+      <p>Use the search bar to quickly find meals.</p>
+    </div>
+    <div class="slide">
+      <h2>➕ Add Your Own Meals</h2>
+      <p>Use the form to add custom meals to your list.</p>
+    </div>
+    <div class="slide">
+      <h2>❌ Delete Meals</h2>
+      <p>Click delete to remove meals you don't want anymore.</p>
+    </div>
+    <div class="slide">
+      <h2>🌗 Dark Mode</h2>
+      <p>Toggle between dark and light mode for better viewing.</p>
+    </div>
+    <div class="slide">
+      <h2>✅ Auto Save</h2>
+      <p>Your meals are saved automatically in your browser.</p>
+    </div>
+
+    <div class="slide-controls">
+      <button id="prevSlide">⬅ Prev</button>
+      <button id="nextSlide">Next ➡</button>
+    </div>
+  </section>
 
   <main id="mealsContainer">
     <p>Loading meals...</p>
