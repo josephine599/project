@@ -3,7 +3,7 @@ let darkMode = false;
 
 async function loadMeals() {
   try {
-    const res = await fetch('db.json');
+    const res = await fetch('https://project-5-49ma.onrender.com/meals');
     const data = await res.json();
     allMeals = data.meals;
     displayMeals(allMeals);
